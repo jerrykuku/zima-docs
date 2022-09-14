@@ -12,7 +12,7 @@ Install dependencies:
 
 ``` bash
 $ git clone https://github.com/jerrykuku/zima-docs.git
-$ cd site
+$ cd zima-docs
 $ yarn install
 ```
 
