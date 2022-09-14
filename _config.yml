@@ -1,0 +1,38 @@
+title: ZimaBoard
+subtitle: "ZimaBoard, NAS, single board computer, SBC, media server, Plex, edge device, iot gateway,  Filecoin, openwrt, homebridge, pfsense, linux server"
+description: "ZimaBoard is world's first hackable single board server. It is a hybird of micro server and SBC (single board computer). It's designed for building a low cost NAS, media server, and software router as your home automation and entertainment center."
+author: ZimaBoard
+language: en
+timezone: UTC
+
+url: https://docs.zimaboard.com
+root: /
+permalink: news/:year/:month/:day/:title/
+archive_dir: news
+code_dir: downloads/code
+new_post_name: :year-:month-:day-:title.md # File name of new posts
+post_asset_folder: true
+per_page: 0
+pretty_urls:
+  trailing_index: false
+  trailing_html: false
+
+theme: zima
+
+highlight:
+  enable: true
+  line_number: false
+
+google_analytics: G-EKB9X0WRP9
+fb_admins: 298662541343433
+algolia:
+  en:
+    api_key: c3d5d4c995b5e0c2ffb5623900279a66
+    index_name: hexo
+  zh-tw:
+    api_key: c83d2ec3440f40aec6d0e695ecec7ef3
+    index_name: hexo_zh-tw
+  zh-cn:
+    api_key: cdea7d4e47d84f6145b77e7f68689f35
+    index_name: hexo_zh-cn
+twitter: zimaboard
