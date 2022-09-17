@@ -1,54 +1,37 @@
 docs:
-  getting_started:
-    overview: index.html
-    setup: setup.html
-    configuration: configuration.html
-    commands: commands.html
-    migration: migration.html
-  basic_usage:
-    writing: writing.html
-    front_matter: front-matter.html
-    tag_plugins: tag-plugins.html
-    asset_folders: asset-folders.html
-    data_files: data-files.html
-    server: server.html
-    generating: generating.html
-  deployment:
-    github_pages: github-pages.html
-    gitlab_pages: gitlab-pages.html
-    one_command_deployment: one-command-deployment.html
-  customization:
-    permalinks: permalinks.html
-    themes: themes.html
-    templates: templates.html
-    variables: variables.html
-    helpers: helpers.html
-    internationalization: internationalization.html
-    syntax_highlight: syntax-highlight.html
-    plugins: plugins.html
-  miscellaneous:
-    troubleshooting: troubleshooting.html
-    contributing: contributing.html
-
-api:
-  core:
-    overview: index.html
-    events: events.html
-    locals: locals.html
-    router: router.html
-    box: box.html
-    rendering: rendering.html
-    posts: posts.html
-    scaffolds: scaffolds.html
-    themes: themes.html
-  extensions:
-    console: console.html
-    deployer: deployer.html
-    filter: filter.html
-    generator: generator.html
-    helper: helper.html
-    injector: injector.html
-    migrator: migrator.html
-    processor: processor.html
-    renderer: renderer.html
-    tag: tag.html
+  quick_manual:
+    start_zimaboard: index.html
+    self_deploying_applications: Self-Deploying-Applications.html
+    hardware_introduction: Hardware-Introduction.html
+  play_with_multiple_systems:
+    casaos_system_introduction: CasaOS-System-Introduction.html
+    installing_ubuntu_system: Installing-Ubuntu-System.html
+    installing_omv_nas_system: Installing-OMV-NAS-System.html
+    installing_unraid_nas_system: Installing-UNRAID-NAS-System.html
+    installing_openwrt_routing_system: Installing-OpenWRT-Routing-System
+    installing_pfsense_routing_system: Installing-pfSense-Routing-System.html
+    installing_routing_ikuai_system: Installing-Routing-ikuai-System.html
+    universal_third-party_system_installation_tutorial: Universal-third-party-system-installation-tutorial.html
+  audio-visual_entertainment_center:
+    dedicated_system_base_functions: Dedicated-system-base-functions.html
+    build_a_75-inch_4k_arcade_host: Build-a-75-inch-4K-arcade-host.html
+    vr_audio_and_video_experience_oculus: VR-audio-and-video-experience-Oculus.html
+  hardware_expansion_capability:
+    2.5-inch_lightweight_data_server: 2.5-inch-Lightweight-Data-Server.html
+    tb-class_multiplexed_3.5-inch_data_server: TB-class-multiplexed-3.5-inch-data-server.html
+    100_usd_for_a_5-drive_nas: 100-USD-for-a-5-drive-NAS.html
+    4g_edge_gateway_with_remote_control_support: 4G-edge-gateway-with-remote-control-support.html
+    exploring_the_performance_of_10_gigabit_gateways: Exploring-the-Performance-of-10-Gigabit-Gateways.html
+    the_rack_can_not_be_missing: The-rack-can-not-be-missing.html
+    community_co-creation_of_3d_drawings: Community-co-creation-of-3D-drawings.html
+  diversified_server_applications:
+    git_local_private_storage: Git-Local-Private-Storage.html
+    minecraft_friendship_service: MineCraft-Friendship-Service.html
+    password_server_security_comparison: Password-Server-Security-Comparison.html
+    top_5_seed_downloader_recommendations: Top-5-Seed-Downloader-Recommendations.html
+faq:
+  technical_support:
+    faq: index.html
+    upgrade_motherboard_bios_version: Upgrade-motherboard-BIOS-version.html
+    restore_factory_settings: Restore-factory-settings.html
+    how_to_check_ip_address: How-to-check-IP-address.html

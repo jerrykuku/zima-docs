@@ -1,38 +1,22 @@
-<header id="banner" class="wrapper">
-  <div class="inner">
-    <div class="slider-block-video" style="transition: none 0s ease 0s; text-align: center; line-height: 70px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 700; font-size: 70px;">YOUR NEW CLOUD HQ<br>IN THE PALM OF YOUR HAND</div>
-    
+<header id="banner" class="wrapper d-flex justify-content-center align-items-center">
+  <div>
+    <div class="inner">
+      <div class="big-title">{{page.subtitle}}</div>
+    </div>
+    <a href="docs/" class="site-button banner-button">{{ __('index.get_started') }}</a>
+  </div>
+  <div class="video-mask"></div>
+  <div class="video-bg">
+    <video class="bgvid"id="bgvid" autoplay loop muted>
+      <source src="/video/video1.mp4"  type="video/mp4" >
+    </video>
   </div>
 </header>
-<div id="intro-news-list">
-  <div class="wrapper">
-    <div class="inner">
-      <div id="intro-news-flex">
-        {% set posts = site.posts.sort('-date') %}
-        {% for post in posts.slice('0', '4').toArray() %}
-        <a href="{{ url_for(post.path) }}" class="intro-news-wrap">
-          <div class="intro-news-time">{{ time_tag(post.date) }}</div>
-          <div class="intro-news-title">{{ truncate(post.title, {length: 120, separator: ' '}) }}</div>
-        </a>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-</div>
+
 <div id="content-wrap">
   <div class="wrapper">
     <div class="inner">
       {{ page.content }}
-      <ul id="intro-cmd-wrap">
-        <li class="intro-cmd-item">npm install hexo-cli -g</li>
-        <li class="intro-cmd-item">hexo init blog</li>
-        <li class="intro-cmd-item">cd blog</li>
-        <li class="intro-cmd-item">npm install</li>
-        <li class="intro-cmd-item">hexo server</li>
-      </ul>
-      <div id="intro-get-started-wrap">
-        <a href="docs/" id="intro-get-started-link">{{ __('index.get_started') }}</a>
-      </div>
     </div>
   </div>
 </div>

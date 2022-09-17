@@ -18,56 +18,39 @@ page:
 
 sidebar:
   docs:
-    getting_started: Getting Started
-    overview: Overview
-    setup: Setup
-    configuration: Configuration
-    commands: Commands
-    migration: Migration
-    basic_usage: Basic Usage
-    writing: Writing
-    front_matter: Front-matter
-    tag_plugins: Tag Plugins
-    asset_folders: Asset Folders
-    data_files: Data Files
-    server: Server
-    generating: Generating
-    deployment: Deployment
-    github_pages: GitHub Pages
-    gitlab_pages: GitLab Pages
-    one_command_deployment: One-Command Deployment
-    customization: Customization
-    permalinks: Permalinks
-    themes: Themes
-    structure: Structure
-    templates: Templates
-    variables: Variables
-    helpers: Helpers
-    internationalization: Internationalization (i18n)
-    syntax_highlight: Syntax Highlight
-    plugins: Plugins
-    miscellaneous: Miscellaneous
-    troubleshooting: Troubleshooting
-    contributing: Contributing
-  api:
-    core: Core
-    overview: Overview
-    events: Events
-    locals: Locals
-    router: Router
-    box: Box
-    rendering: Rendering
-    posts: Posts
-    scaffolds: Scaffolds
-    themes: Themes
-    extensions: Extensions
-    console: Console
-    deployer: Deployer
-    filter: Filter
-    generator: Generator
-    helper: Helper
-    injector: Injector
-    migrator: Migrator
-    processor: Processor
-    renderer: Renderer
-    tag: Tag
+    quick_manual: Quick Manual
+    start_zimaboard: Start ZimaBoard
+    self_deploying_applications: Self Deploying Applications
+    hardware_introduction: Hardware Introduction
+    play_with_multiple_systems: Play with multiple systems
+    casaos_system_introduction: CasaOS System Introduction
+    installing_ubuntu_system: Installing Ubuntu System
+    installing_omv_nas_system: Installing OMV NAS System
+    installing_unraid_nas_system: Installing UNRAID NAS System
+    installing_openwrt_routing_system: Installing OpenWRT Routing System
+    installing_pfsense_routing_system: Installing pfSense Routing System
+    installing_routing_ikuai_system: Installing Routing ikuai System
+    universal_third-party_system_installation_tutorial: Universal third party system installation tutorial
+    audio-visual_entertainment_center: Audio-visual entertainment center
+    dedicated_system_base_functions: Dedicated system base functions
+    build_a_75-inch_4k_arcade_host: Build a 75 inch 4K arcade host
+    vr_audio_and_video_experience_oculus: VR audio and video experience Oculus
+    hardware_expansion_capability: Hardware Expansion Capability
+    2.5-inch_lightweight_data_server: 2.5 inch Lightweight Data Server
+    tb-class_multiplexed_3.5-inch_data_server: TB-class multiplexed 3.5 inch data server
+    100_usd_for_a_5-drive_nas: 100 USD for a 5 drive NAS
+    4g_edge_gateway_with_remote_control_support: 4G edge gateway with remote control support
+    exploring_the_performance_of_10_gigabit_gateways: Exploring the Performance of 10 Gigabit Gateways
+    the_rack_can_not_be_missing: The rack can not be missing
+    community_co-creation_of_3d_drawings: Community co-creation of 3D drawings
+    diversified_server_applications: Diversified server applications
+    git_local_private_storage: Git Local Private Storage
+    minecraft_friendship_service: MineCraft Friendship Service
+    password_server_security_comparison: Password Server Security Comparison
+    top_5_seed_downloader_recommendations: Top 5 Seed Downloader Recommendations
+  faq:
+    technical_support: Technical Support
+    faq: FAQ
+    upgrade_motherboard_bios_version: Upgrade motherboard BIOS version
+    restore_factory_settings: Restore factory settings
+    how_to_check_ip_address: How to check IP address

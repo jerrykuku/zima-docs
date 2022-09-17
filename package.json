@@ -13,6 +13,7 @@
   "dependencies": {
     "cheerio": "^0.22.0",
     "hexo": "hexojs/hexo",
+    "hexo-asset-image-for-hexo5": "^2.1.7",
     "hexo-clean-css": "^2.0.0",
     "hexo-filter-nofollow": "^2.0.2",
     "hexo-fs": "^3.1.0",
