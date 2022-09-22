@@ -17,7 +17,9 @@ jobs:
         
     - name: Install and Build 🔧 
       run: |
+        npm install -g hexo-cli
         yarn install
+        hexo -v
         hexo clean
         hexo generate
 
