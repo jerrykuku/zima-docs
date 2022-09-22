@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+  <title>Installing-OpenWRT-Routing-System | ZimaBoard</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Canonical links -->
+  <link rel="canonical" href="https://docs.zimaboard.com/docs/Installing-OpenWRT-Routing-System.html">
+  <!-- Alternative links -->
+  
+    
+      <link rel="alternative" hreflang="en" href="https://docs.zimaboard.com/docs/Installing-OpenWRT-Routing-System">
+    
+      <link rel="alternative" hreflang="zh-cn" href="https://docs.zimaboard.com/zh-cn/docs/Installing-OpenWRT-Routing-System">
+    
+  
+  <!-- Icon -->
+<link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/icon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/icon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
+<link rel="manifest" href="/icon/manifest.json">
+<meta name="msapplication-TileColor" content="#f1b335">
+<meta name="msapplication-TileImage" content="/icon/ms-icon-144x144.png">
+<meta name="theme-color" content="#f1b335">
+
+  
+  <!-- build:css build/css/navy.css -->
+  
+<link rel="stylesheet" href="/css/zima.css">
+
+  <!-- endbuild -->
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rajdhani%3A300%2C400%2C500%2C600%2C700%7CMuli%3A200%2C300%2C400%2C500%2C600%2C700%2C800%2C900&#038;subset'/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-lato@0.0.75/index.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css">
+  
+  <!-- RSS -->
+  <link rel="alternate" href="/atom.xml" title="ZimaBoard" type="application/atom+xml">
+  <!-- Open Graph -->
+  <meta name="description" content="OpenWrt is the best companion for the ZimaBoard USB stick login version– 5 steps to burn your favourite OpenWrt hombre firmware TopicsWith a performance between Raspberry Pi and MicroServer and a pric">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Installing-OpenWRT-Routing-System">
+<meta property="og:url" content="https://docs.zimaboard.com/docs/Installing-OpenWRT-Routing-System">
+<meta property="og:site_name" content="ZimaBoard">
+<meta property="og:description" content="OpenWrt is the best companion for the ZimaBoard USB stick login version– 5 steps to burn your favourite OpenWrt hombre firmware TopicsWith a performance between Raspberry Pi and MicroServer and a pric">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://docs.zimaboard.com/images/Installing-OpenWRT-Routing-System/install-openwrt-router-system-creat-mirror.png">
+<meta property="og:image" content="https://docs.zimaboard.com/images/Installing-OpenWRT-Routing-System/install-openwrt-router-system-zimaboard-connect.png">
+<meta property="og:image" content="https://docs.zimaboard.com/images/Installing-OpenWRT-Routing-System/install-openwrt-router-system-enter-to-bios.png">
+<meta property="og:image" content="https://docs.zimaboard.com/images/Installing-OpenWRT-Routing-System/install-openwrt-router-system-choose-boot.png">
+<meta property="og:image" content="https://docs.zimaboard.com/images/Installing-OpenWRT-Routing-System/install-openwrt-router-system-enter-openwrt-luci.png">
+<meta property="og:image" content="https://docs.zimaboard.com/images/Installing-OpenWRT-Routing-System/install-openwrt-router-system-complete-install-openwrt.jpeg">
+<meta property="article:published_time" content="2022-09-22T10:19:02.521Z">
+<meta property="article:modified_time" content="2022-09-22T10:19:02.521Z">
+<meta property="article:author" content="ZimaBoard">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://docs.zimaboard.com/images/Installing-OpenWRT-Routing-System/install-openwrt-router-system-creat-mirror.png">
+<meta name="twitter:site" content="zimaboard">
+<meta property="fb:admins" content="298662541343433">
+  <!-- Google Analytics -->
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'G-EKB9X0WRP9', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="header_outer">
+  <header id="header" >
+    <div id="header-inner" class="inner">
+      <div class="logo-container">
+        <h1 id="logo-wrap">
+          <a href="/" id="logo">Hexo</a>
+        </h1>
+      </div>
+      <div class="nav-container">
+        <nav id="main-nav" class="maxmenu white-style brackets-style nav-animation fade-down-animation" >
+          <ul id="menu-main-menu" class="maxmenu-list">
+            <li class="menu-item ">
+              <a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.zimaboard.com/">ZimaBoard</a>
+            </li>
+            <li class="menu-item">
+              <a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.casaos.io/">CasaOs</a>
+            </li>
+            <li class="menu-item">
+              <a target="_blank" rel="noopener external nofollow noreferrer" href="https://shop.zimaboard.com/">Shop</a>
+            </li>
+            <li class="menu-item current_page_item"><a href="/docs/" class="main-nav-link ">Docs</a></li><li class="menu-item "><a href="/faq/" class="main-nav-link ">FAQ</a></li>
+            <li class="menu-item menu-item-has-children">
+              <span class="maxmenu-click">
+                <i class="maxmenu-arrow"></i>
+              </span>
+              <a href="#">Language</a>
+              <ul class="sub-menu">
+                
+                  <li class="menu-item">
+                    <a href="/docs/Installing-OpenWRT-Routing-System.html">English</a>
+                  </li>
+                
+                  <li class="menu-item">
+                    <a href="/zh-cn/docs/Installing-OpenWRT-Routing-System.html">简体中文</a>
+                  </li>
+                
+              </ul>
+            </li>
+
+          </ul>
+        </nav>
+      </div>
+
+      <div class="search-icon-container">
+        <div id="search-container-icon">
+          <i class="fa fa-search" id="showSearch"></i>
+        </div>
+      </div>
+
+      <a id="mobile-nav-toggle">
+        <span class="mobile-nav-toggle-bar"></span>
+        <span class="mobile-nav-toggle-bar"></span>
+        <span class="mobile-nav-toggle-bar"></span>
+      </a>
+    </div>
+  </header>
+</div>
+
+<div id="search-container">
+  <div id="search-container-close">
+    <i class="fa fa-close" id="hideSearch"></i>
+  </div>
+  <div class="search-bg"></div>
+  <div class="search-content-container">
+    <div id="search-input-wrap">
+      <div id="search-input-icon">
+        <i class="fa fa-search"></i>
+      </div>
+      <input type="search" id="search-input" placeholder="Search...">
+    </div>
+  </div>
+
+</div>
+    <div id="content-wrap">
+  <div id="content" class="wrapper">
+    <div id="content-inner">
+      <article class="article-container" itemscope itemtype="http://schema.org/Article">
+        <div class="article-inner">
+          <div class="article">
+            <div class="inner">
+              <header class="article-header">
+                <h1 class="article-title" itemprop="name">Installing-OpenWRT-Routing-System</h1>
+                <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/site/edit/master/source/docs/Installing-OpenWRT-Routing-System.md" class="article-edit-link" title="Improve this doc"><i class="fa fa-pencil"></i></a>
+              </header>
+              <div class="article-content" itemprop="articleBody">
+                <h1 id="OpenWrt-is-the-best-companion-for-the-ZimaBoard-USB-stick-login-version" class="article-heading"><a href="#OpenWrt-is-the-best-companion-for-the-ZimaBoard-USB-stick-login-version" class="headerlink" title="OpenWrt is the best companion for the ZimaBoard USB stick login version"></a>OpenWrt is the best companion for the ZimaBoard USB stick login version<a class="article-anchor" href="#OpenWrt-is-the-best-companion-for-the-ZimaBoard-USB-stick-login-version" aria-hidden="true"></a></h1><p><strong>– 5 steps to burn your favourite OpenWrt hombre firmware</strong></p>
+<blockquote class="note dinfo"><p>Topics<br>With a performance between Raspberry Pi and MicroServer and a price positioning, the best use of the ZimaBoard for many gamers is undoubtedly to be a hundred-dollar class, customizable, OpenWrt &#x2F; pfSense x86 router with enough computing power.<br>Based on this simple tutorial, we will share, how to make a USB stick boot disk and after a few steps, log into OpenWrt.</p>
+</blockquote>
+
+<p><strong>Preparation</strong></p>
+<ol>
+<li>PC Host</li>
+<li>ZimaBoard（Access to the same LAN as the PC）</li>
+<li>U Disk</li>
+<li>Keyboard </li>
+<li>Minidp to HDMI or DP Adapter</li>
+<li>Monitor</li>
+<li>Ethernet Cable </li>
+<li>OpenWrt Image（Or download the mirror recommended by the team via this link）</li>
+<li>balenaEther（Or any of your usual u disk image creation tools）</li>
+</ol>
+<h1 id="Operation-steps" class="article-heading"><a href="#Operation-steps" class="headerlink" title="Operation steps"></a>Operation steps<a class="article-anchor" href="#Operation-steps" aria-hidden="true"></a></h1><h2 id="1-Creating-an-OpenWrt-system-on-a-USB-stick" class="article-heading"><a href="#1-Creating-an-OpenWrt-system-on-a-USB-stick" class="headerlink" title="1. Creating an OpenWrt system on a USB stick"></a>1. Creating an OpenWrt system on a USB stick<a class="article-anchor" href="#1-Creating-an-OpenWrt-system-on-a-USB-stick" aria-hidden="true"></a></h2><p>（For detailed steps, please see Universal Third Party System Installation）——插入通用第三方教程的</p>
+<p><img src="/images/Installing-OpenWRT-Routing-System/install-openwrt-router-system-creat-mirror.png"></p>
+<h2 id="2-ZimaBoard-via-mini-DP-to-HDMI-x2F-DP-cable-access-to-the-display-USB-Keyboard-to-ZimaBoard" class="article-heading"><a href="#2-ZimaBoard-via-mini-DP-to-HDMI-x2F-DP-cable-access-to-the-display-USB-Keyboard-to-ZimaBoard" class="headerlink" title="2. ZimaBoard via mini DP to HDMI &#x2F; DP cable, access to the display,USB Keyboard to ZimaBoard"></a>2. ZimaBoard via mini DP to HDMI &#x2F; DP cable, access to the display,USB Keyboard to ZimaBoard<a class="article-anchor" href="#2-ZimaBoard-via-mini-DP-to-HDMI-x2F-DP-cable-access-to-the-display-USB-Keyboard-to-ZimaBoard" aria-hidden="true"></a></h2><p><img src="/images/Installing-OpenWRT-Routing-System/install-openwrt-router-system-zimaboard-connect.png"></p>
+<h2 id="3-Insert-the-USB-stick-into-the-ZimaBoard-boot-up-and-click-“DEL”-to-log-into-the-BIOS-Page" class="article-heading"><a href="#3-Insert-the-USB-stick-into-the-ZimaBoard-boot-up-and-click-“DEL”-to-log-into-the-BIOS-Page" class="headerlink" title="3. Insert the USB stick into the ZimaBoard, boot up and click “DEL” to log into the BIOS Page"></a>3. Insert the USB stick into the ZimaBoard, boot up and click “DEL” to log into the BIOS Page<a class="article-anchor" href="#3-Insert-the-USB-stick-into-the-ZimaBoard-boot-up-and-click-“DEL”-to-log-into-the-BIOS-Page" aria-hidden="true"></a></h2><p><img src="/images/Installing-OpenWRT-Routing-System/install-openwrt-router-system-enter-to-bios.png"></p>
+<h2 id="4-In-the-Boot-option-configure-the-USB-flash-drive-as-Boot-Option-1-save-the-settings-and-reboot-After-boot-enter-the-USB-drive-OpenWrt" class="article-heading"><a href="#4-In-the-Boot-option-configure-the-USB-flash-drive-as-Boot-Option-1-save-the-settings-and-reboot-After-boot-enter-the-USB-drive-OpenWrt" class="headerlink" title="4. In the Boot option, configure the USB flash drive as Boot Option #1, save the settings, and reboot. After boot, enter the USB drive OpenWrt"></a>4. In the Boot option, configure the USB flash drive as Boot Option #1, save the settings, and reboot. After boot, enter the USB drive OpenWrt<a class="article-anchor" href="#4-In-the-Boot-option-configure-the-USB-flash-drive-as-Boot-Option-1-save-the-settings-and-reboot-After-boot-enter-the-USB-drive-OpenWrt" aria-hidden="true"></a></h2><p><img src="/images/Installing-OpenWRT-Routing-System/install-openwrt-router-system-choose-boot.png"></p>
+<h2 id="5-Configure-your-OpenWrt-system-IP-address-information-and-use-a-PC-browser-to-log-into-the-OpenWrt-Luci-page" class="article-heading"><a href="#5-Configure-your-OpenWrt-system-IP-address-information-and-use-a-PC-browser-to-log-into-the-OpenWrt-Luci-page" class="headerlink" title="5. Configure your OpenWrt system IP address information and use a PC browser to log into the OpenWrt Luci page"></a>5. Configure your OpenWrt system IP address information and use a PC browser to log into the OpenWrt Luci page<a class="article-anchor" href="#5-Configure-your-OpenWrt-system-IP-address-information-and-use-a-PC-browser-to-log-into-the-OpenWrt-Luci-page" aria-hidden="true"></a></h2><p><img src="/images/Installing-OpenWRT-Routing-System/install-openwrt-router-system-enter-openwrt-luci.png"></p>
+<h1 id="Successful-login-！！！！" class="article-heading"><a href="#Successful-login-！！！！" class="headerlink" title="Successful login ！！！！"></a>Successful login ！！！！<a class="article-anchor" href="#Successful-login-！！！！" aria-hidden="true"></a></h1><p><img src="/images/Installing-OpenWRT-Routing-System/install-openwrt-router-system-complete-install-openwrt.jpeg"></p>
+<h1 id="Summary" class="article-heading"><a href="#Summary" class="headerlink" title="Summary"></a>Summary<a class="article-anchor" href="#Summary" aria-hidden="true"></a></h1><p>Getting OpenWrt to run on a USB stick is a relatively simple way to do it. But as an aspiring gamer, if you wish to write your OpenWrt system to a ZimaBoard eMMC, you can refer to the next tutorial.<br>If you are interested in running more interesting software services for network enhancement, and home cloud data management on OpenWrt, check out this link!</p>
+
+              </div>
+              <footer class="article-footer">
+                <time class="article-footer-updated" datetime="2022-09-22T10:19:02.521Z" itemprop="dateModified">Last updated: 2022-09-22</time>
+                <a href="index.html" class="article-footer-next" title="Start ZimaBoard"><span>Next</span><i class="fa fa-chevron-right"></i></a>
+              </footer>
+
+            </div>
+          </div>
+          <aside id="article-toc" role="navigation">
+            <div id="article-toc-inner">
+              <strong class="sidebar-title">Contents</strong>
+              <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#OpenWrt-is-the-best-companion-for-the-ZimaBoard-USB-stick-login-version"><span class="toc-text">OpenWrt is the best companion for the ZimaBoard USB stick login version</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Operation-steps"><span class="toc-text">Operation steps</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-Creating-an-OpenWrt-system-on-a-USB-stick"><span class="toc-text">1. Creating an OpenWrt system on a USB stick</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-ZimaBoard-via-mini-DP-to-HDMI-x2F-DP-cable-access-to-the-display-USB-Keyboard-to-ZimaBoard"><span class="toc-text">2. ZimaBoard via mini DP to HDMI &#x2F; DP cable, access to the display,USB Keyboard to ZimaBoard</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-Insert-the-USB-stick-into-the-ZimaBoard-boot-up-and-click-%E2%80%9CDEL%E2%80%9D-to-log-into-the-BIOS-Page"><span class="toc-text">3. Insert the USB stick into the ZimaBoard, boot up and click “DEL” to log into the BIOS Page</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-In-the-Boot-option-configure-the-USB-flash-drive-as-Boot-Option-1-save-the-settings-and-reboot-After-boot-enter-the-USB-drive-OpenWrt"><span class="toc-text">4. In the Boot option, configure the USB flash drive as Boot Option #1, save the settings, and reboot. After boot, enter the USB drive OpenWrt</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-Configure-your-OpenWrt-system-IP-address-information-and-use-a-PC-browser-to-log-into-the-OpenWrt-Luci-page"><span class="toc-text">5. Configure your OpenWrt system IP address information and use a PC browser to log into the OpenWrt Luci page</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Successful-login-%EF%BC%81%EF%BC%81%EF%BC%81%EF%BC%81"><span class="toc-text">Successful login ！！！！</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Summary"><span class="toc-text">Summary</span></a></li></ol>
+              <a href="#" id="article-toc-top">Back to Top</a>
+            </div>
+          </aside>
+        </div>
+      </article>
+      <aside id="sidebar" role="navigation">
+  <div class="inner">
+    <strong class="sidebar-title">Quick Manual</strong><a href="index.html" class="sidebar-link">Start ZimaBoard</a><a href="Self-Deploying-Applications.html" class="sidebar-link">Self Deploying Applications</a><a href="Hardware-Introduction.html" class="sidebar-link">Hardware Introduction</a><strong class="sidebar-title">Play with multiple systems</strong><a href="CasaOS-System-Introduction.html" class="sidebar-link">CasaOS System Introduction</a><a href="Installing-Ubuntu-System.html" class="sidebar-link">Installing Ubuntu System</a><a href="Installing-OMV-NAS-System.html" class="sidebar-link">Installing OMV NAS System</a><a href="Installing-UNRAID-NAS-System.html" class="sidebar-link">Installing UNRAID NAS System</a><a href="Installing-OpenWRT-Routing-System" class="sidebar-link">Installing OpenWRT Routing System</a><a href="Installing-pfSense-Routing-System.html" class="sidebar-link">Installing pfSense Routing System</a><a href="Installing-Routing-ikuai-System.html" class="sidebar-link">Installing Routing ikuai System</a><a href="Universal-third-party-system-installation-tutorial.html" class="sidebar-link">Universal third party system installation tutorial</a><strong class="sidebar-title">Audio-visual entertainment center</strong><a href="Dedicated-system-base-functions.html" class="sidebar-link">Dedicated system base functions</a><a href="Build-a-75-inch-4K-arcade-host.html" class="sidebar-link">Build a 75 inch 4K arcade host</a><a href="VR-audio-and-video-experience-Oculus.html" class="sidebar-link">VR audio and video experience Oculus</a><strong class="sidebar-title">Hardware Expansion Capability</strong><a href="2.5-inch-Lightweight-Data-Server.html" class="sidebar-link">2.5 inch Lightweight Data Server</a><a href="TB-class-multiplexed-3.5-inch-data-server.html" class="sidebar-link">TB-class multiplexed 3.5 inch data server</a><a href="100-USD-for-a-5-drive-NAS.html" class="sidebar-link">100 USD for a 5 drive NAS</a><a href="4G-edge-gateway-with-remote-control-support.html" class="sidebar-link">4G edge gateway with remote control support</a><a href="Exploring-the-Performance-of-10-Gigabit-Gateways.html" class="sidebar-link">Exploring the Performance of 10 Gigabit Gateways</a><a href="The-rack-can-not-be-missing.html" class="sidebar-link">The rack can not be missing</a><a href="Community-co-creation-of-3D-drawings.html" class="sidebar-link">Community co-creation of 3D drawings</a><strong class="sidebar-title">Diversified server applications</strong><a href="Git-Local-Private-Storage.html" class="sidebar-link">Git Local Private Storage</a><a href="MineCraft-Friendship-Service.html" class="sidebar-link">MineCraft Friendship Service</a><a href="Password-Server-Security-Comparison.html" class="sidebar-link">Password Server Security Comparison</a><a href="Top-5-Seed-Downloader-Recommendations.html" class="sidebar-link">Top 5 Seed Downloader Recommendations</a>
+  </div>
+</aside>
+    </div>
+  </div>
+</div>
+
+    <!-- FOOTER START -->
+<footer class="site-footer footer-large footer-dark text-white footer-style1">
+
+  <!-- FOOTER BLOCKES START -->
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-6 col-md-6">
+
+          <div class="widget recent-posts-entry">
+            <h3 class="widget-title">Get in Touch</h3>
+            <ul class="widget_address">
+              <li>
+                <i class="fa fa-map-marker"></i>X-NODE Space, 4F, 800 NaXian Road, Shanghai, P.R.C</li>
+              <li>
+                <i class="fa fa-envelope"></i>info@icewhale.org</li>
+              <li>
+                <i class="fa fa-phone"></i>+86 137 7423 1816</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+          <div class="widget widget_services">
+            <h3 class="widget-title">Useful links</h3>
+            <div class="row">
+              <div class="col-lg-6 col-md-6">
+                <ul>
+                  <li>
+                    <a target="_blank" rel="noopener external nofollow noreferrer" href="https:/www.zimaboard.com/">Home</a>
+                  </li>
+                  <li>
+                    <a target="_blank" rel="noopener external nofollow noreferrer" href="https:/www.zimaboard.com/about/product">ZimaBoard </a>
+                  </li>
+                  <li>
+                    <a href="https://www.casaos.io" rel="external nofollow noreferrer" target="_blank">CasaOS</a>
+                  </li>
+                  <li>
+                    <a href="https://discord.gg/Gx4BCEtHjx" rel="external nofollow noreferrer" target="_blank">Community</a>
+                  </li>
+                  <li>
+                    <a target="_blank" rel="noopener external nofollow noreferrer" href="https:/www.zimaboard.com/gallery">Gallery</a>
+                  </li>
+                  
+                </ul>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <ul>
+                  <li>
+                    <a href="https:/www.zimaboard.com/about/team" rel="external nofollow noreferrer" target="_blank">Team </a>
+                  </li>
+                  <li>
+                    <a href="https://blog.zimaboard.com" rel="external nofollow noreferrer" target="_blank">Blog</a>
+                  </li>
+                  <li>
+                    <a href="https://shop.zimaboard.com" rel="external nofollow noreferrer" target="_blank">Shop</a>
+                  </li>
+                  <li>
+                    <a href="https:/www.zimaboard.com/distributors" rel="external nofollow noreferrer" target="_blank">Distributors</a>
+                  </li>
+                  <li>
+                    <a href="https:/docs.zimaboard.com" rel="external nofollow noreferrer" target="_blank">Docs</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- FOOTER COPYRIGHT -->
+
+  <div class="footer-middle">
+
+    <div class="container">
+      <div class="footer-middle-content1">
+        <ul class="social-icons  wt-social-links footer-social-icon">
+          <li>
+            <a href="https://discord.gg/Gx4BCEtHjx" rel="external nofollow noreferrer" target="_blank"><img src="/icon/discord.png" alt=""></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/zimaboard/" rel="external nofollow noreferrer" target="_blank"><img src="/icon/facebook.png" alt=""></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/c/zimaboardofficialchannel/featured" rel="external nofollow noreferrer" target="_blank"><img src="/icon/youtube.png" alt=""></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/zimaboard" rel="external nofollow noreferrer" target="_blank"><img src="/icon/twitter.png" alt=""></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <ul class="copyrights-nav">
+        <li>
+          <a target="_blank" rel="noopener external nofollow noreferrer" href="https://blog.zimaboard.com/privacy-policy/">Privacy Policy</a>
+        </li>
+      </ul>
+      <div class="wt-footer-bot-left d-flex justify-content-center">
+        <span class="copyrights-text">© 2021 Shanghai Icewhale Technology Co.,Ltd. </span>
+      </div>
+    </div>
+  </div>
+
+</footer>
+<!-- FOOTER END -->
+  </div>
+  <div id="mobile-nav-dimmer"></div>
+  <nav id="mobile-nav">
+  <div id="mobile-nav-inner">
+    <ul id="mobile-nav-list">
+      <li class="mobile-nav-item ">
+        <a href="https://www.zimaboard.com/" class="mobile-nav-link" rel="external" target="_blank">ZimaBoard</a>
+      </li>
+      <li class="mobile-nav-item">
+        <a href="https://www.casaos.io/" class="mobile-nav-link" rel="external" target="_blank">CasaOs</a>
+      </li>
+      <li class="mobile-nav-item">
+        <a href="https://shop.zimaboard.com/" class="mobile-nav-link" rel="external" target="_blank">Shop</a>
+      </li>
+      <li class="menu-item current_page_item"><a href="/docs/" class="mobile-nav-link ">Docs</a></li><li class="menu-item "><a href="/faq/" class="mobile-nav-link ">FAQ</a></li>
+      <li class="mobile-nav-item">
+        <a href="https://github.com/" class="mobile-nav-link" rel="external" target="_blank">GitHub</a>
+      </li>
+
+    </ul>
+    
+      <strong class="mobile-nav-title">Quick Manual</strong><a href="index.html" class="mobile-nav-link">Start ZimaBoard</a><a href="Self-Deploying-Applications.html" class="mobile-nav-link">Self Deploying Applications</a><a href="Hardware-Introduction.html" class="mobile-nav-link">Hardware Introduction</a><strong class="mobile-nav-title">Play with multiple systems</strong><a href="CasaOS-System-Introduction.html" class="mobile-nav-link">CasaOS System Introduction</a><a href="Installing-Ubuntu-System.html" class="mobile-nav-link">Installing Ubuntu System</a><a href="Installing-OMV-NAS-System.html" class="mobile-nav-link">Installing OMV NAS System</a><a href="Installing-UNRAID-NAS-System.html" class="mobile-nav-link">Installing UNRAID NAS System</a><a href="Installing-OpenWRT-Routing-System" class="mobile-nav-link">Installing OpenWRT Routing System</a><a href="Installing-pfSense-Routing-System.html" class="mobile-nav-link">Installing pfSense Routing System</a><a href="Installing-Routing-ikuai-System.html" class="mobile-nav-link">Installing Routing ikuai System</a><a href="Universal-third-party-system-installation-tutorial.html" class="mobile-nav-link">Universal third party system installation tutorial</a><strong class="mobile-nav-title">Audio-visual entertainment center</strong><a href="Dedicated-system-base-functions.html" class="mobile-nav-link">Dedicated system base functions</a><a href="Build-a-75-inch-4K-arcade-host.html" class="mobile-nav-link">Build a 75 inch 4K arcade host</a><a href="VR-audio-and-video-experience-Oculus.html" class="mobile-nav-link">VR audio and video experience Oculus</a><strong class="mobile-nav-title">Hardware Expansion Capability</strong><a href="2.5-inch-Lightweight-Data-Server.html" class="mobile-nav-link">2.5 inch Lightweight Data Server</a><a href="TB-class-multiplexed-3.5-inch-data-server.html" class="mobile-nav-link">TB-class multiplexed 3.5 inch data server</a><a href="100-USD-for-a-5-drive-NAS.html" class="mobile-nav-link">100 USD for a 5 drive NAS</a><a href="4G-edge-gateway-with-remote-control-support.html" class="mobile-nav-link">4G edge gateway with remote control support</a><a href="Exploring-the-Performance-of-10-Gigabit-Gateways.html" class="mobile-nav-link">Exploring the Performance of 10 Gigabit Gateways</a><a href="The-rack-can-not-be-missing.html" class="mobile-nav-link">The rack can not be missing</a><a href="Community-co-creation-of-3D-drawings.html" class="mobile-nav-link">Community co-creation of 3D drawings</a><strong class="mobile-nav-title">Diversified server applications</strong><a href="Git-Local-Private-Storage.html" class="mobile-nav-link">Git Local Private Storage</a><a href="MineCraft-Friendship-Service.html" class="mobile-nav-link">MineCraft Friendship Service</a><a href="Password-Server-Security-Comparison.html" class="mobile-nav-link">Password Server Security Comparison</a><a href="Top-5-Seed-Downloader-Recommendations.html" class="mobile-nav-link">Top 5 Seed Downloader Recommendations</a>
+    
+  </div>
+  <div id="mobile-lang-select-wrap">
+    <span id="mobile-lang-select-label">
+      <i class="fa fa-globe"></i>
+      <span>English</span></span>
+    <select id="mobile-lang-select" data-canonical="docs/Installing-OpenWRT-Routing-System.html">
+      
+        <option value="en" selected>English</option>
+      
+        <option value="zh-cn">简体中文</option>
+      
+    </select>
+  </div>
+</nav>
+  <!-- Scripts -->
+<!-- Cookie -->
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+<!-- build:js build/js/main.js -->
+
+<script src="/js/lang_select.js"></script>
+
+
+<script src="/js/mobile_nav.js"></script>
+
+
+<script src="/js/content_bar.js"></script>
+
+
+<script src="/js/search_bar.js"></script>
+
+
+<script src="/js/hexo_resize_image.js"></script>
+
+<!-- endbuild -->
+
+<!-- Algolia -->
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
+<script type="text/javascript">
+document.getElementById('search-input-wrap').classList.add('on');
+docsearch({
+  apiKey: 'ce01ba421478be18c7d513f4d1897e4a',
+  indexName: 'zimaboard',
+  inputSelector: '#search-input'
+});
+</script>
+
+
+</body>
+</html>

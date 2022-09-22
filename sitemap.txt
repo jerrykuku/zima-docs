@@ -1,0 +1,14 @@
+https://docs.zimaboard.com/zh-cn/
+https://docs.zimaboard.com/zh-cn/docs/Installing-OpenWRT-Routing-System
+https://docs.zimaboard.com/zh-cn/docs/Installing-Ubuntu-System
+https://docs.zimaboard.com/zh-cn/docs/Self-Deploying-Applications
+https://docs.zimaboard.com/zh-cn/docs/
+https://docs.zimaboard.com/zh-cn/faq/
+https://docs.zimaboard.com/
+https://docs.zimaboard.com/docs/Installing-OpenWRT-Routing-System
+https://docs.zimaboard.com/docs/Installing-Ubuntu-System
+https://docs.zimaboard.com/docs/Self-Deploying-Applications
+https://docs.zimaboard.com/docs/
+https://docs.zimaboard.com/faq/
+https://docs.zimaboard.com/icon/manifest.json
+https://docs.zimaboard.com/

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://docs.zimaboard.com/zh-cn/</loc>
+    
+    <lastmod>2022-09-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://docs.zimaboard.com/zh-cn/docs/Installing-OpenWRT-Routing-System</loc>
+    
+    <lastmod>2022-09-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://docs.zimaboard.com/zh-cn/docs/Installing-Ubuntu-System</loc>
+    
+    <lastmod>2022-09-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://docs.zimaboard.com/zh-cn/docs/Self-Deploying-Applications</loc>
+    
+    <lastmod>2022-09-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://docs.zimaboard.com/zh-cn/docs/</loc>
+    
+    <lastmod>2022-09-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://docs.zimaboard.com/zh-cn/faq/</loc>
+    
+    <lastmod>2022-09-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://docs.zimaboard.com/</loc>
+    
+    <lastmod>2022-09-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://docs.zimaboard.com/docs/Installing-OpenWRT-Routing-System</loc>
+    
+    <lastmod>2022-09-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://docs.zimaboard.com/docs/Installing-Ubuntu-System</loc>
+    
+    <lastmod>2022-09-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://docs.zimaboard.com/docs/Self-Deploying-Applications</loc>
+    
+    <lastmod>2022-09-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://docs.zimaboard.com/docs/</loc>
+    
+    <lastmod>2022-09-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://docs.zimaboard.com/faq/</loc>
+    
+    <lastmod>2022-09-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://docs.zimaboard.com/icon/manifest.json</loc>
+    
+    <lastmod>2022-09-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  <url>
+    <loc>https://docs.zimaboard.com/</loc>
+    <lastmod>2022-09-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+</urlset>
