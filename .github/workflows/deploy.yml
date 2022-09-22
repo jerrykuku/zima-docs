@@ -6,15 +6,16 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
     steps:
     - name: Checkout 🛎️
       uses: actions/checkout@main
       
-    - name: Use Node.js 16
-      uses: actions/setup-node@v2-beta
-      with:
-        node-version: '16'
-        
     - name: Install and Build 🔧 
       run: |
         npm install -g hexo-cli
