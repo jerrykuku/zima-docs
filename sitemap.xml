@@ -65,7 +65,16 @@
   </url>
   
   <url>
-    <loc>https://docs.zimaboard.com/docs/Installing-OpenWRT-Routing-System</loc>
+    <loc>https://docs.zimaboard.com/docs/Installing-Ubuntu-System</loc>
+    
+    <lastmod>2022-09-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://docs.zimaboard.com/docs/Self-Deploying-Applications</loc>
     
     <lastmod>2022-09-22</lastmod>
     
@@ -92,25 +101,16 @@
   </url>
   
   <url>
-    <loc>https://docs.zimaboard.com/docs/Installing-Ubuntu-System</loc>
-    
-    <lastmod>2022-09-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://docs.zimaboard.com/docs/Self-Deploying-Applications</loc>
-    
-    <lastmod>2022-09-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://docs.zimaboard.com/icon/manifest.json</loc>
+    
+    <lastmod>2022-09-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://docs.zimaboard.com/docs/Installing-OpenWRT-Routing-System</loc>
     
     <lastmod>2022-09-22</lastmod>
     
