@@ -25,6 +25,7 @@
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^3.0.0",
     "hexo-tag-mmedia": "^1.1.7",
+    "hexo-tag-youtube-responsive": "^0.4.2",
     "hexo-uglify": "^2.0.0",
     "lunr": "2.3.9",
     "sharp": "^0.30.2"
