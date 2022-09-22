@@ -24,6 +24,7 @@
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^3.0.0",
+    "hexo-tag-mmedia": "^1.1.7",
     "hexo-uglify": "^2.0.0",
     "lunr": "2.3.9",
     "sharp": "^0.30.2"

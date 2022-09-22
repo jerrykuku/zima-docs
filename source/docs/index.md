@@ -13,6 +13,7 @@ It only takes a few minutes to set up Hexo. If you encounter a problem and can't
 
 {% youtube ARted4RniaU %}
 
+
 ### Requirements
 
 Installing Hexo is quite easy and only requires the following beforehand:
