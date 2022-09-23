@@ -42,7 +42,7 @@ $ hexo new page <title>
 
 ### Video
 
-Youtube. You can get youtube video id from youtube video url. https://www.youtube.com/watch?v=```DqqY3sDVGKA```
+Youtube. You can get youtube video id from youtube video url. https://www.youtube.com/watch?v= ```DqqY3sDVGKA```
 
 ``` html
 {% youtuber video <youtube-video-id> %}
