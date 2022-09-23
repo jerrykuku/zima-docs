@@ -28,11 +28,4 @@ highlight:
 
 google_analytics: G-EKB9X0WRP9
 fb_admins: 298662541343433
-algolia:
-  en:
-    api_key: ce01ba421478be18c7d513f4d1897e4a
-    index_name: zimaboard
-  zh-cn:
-    api_key: a61238f4d82905c43bd01bd1cde8d26e
-    index_name: zimaboard
 twitter: zimaboard
