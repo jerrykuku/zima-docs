@@ -1,8 +1,11 @@
 #banner
   color: rgba(255, 255, 255, 0.8)
   text-align: center
-  height: calc(100vh - 96px)
   position relative
+  background: url(../img/banner.jpeg) no-repeat center center
+  background-size: cover
+  .site-bg-primary
+    background-color: #f1b335
   .inner
     position relative
     .big-title
@@ -56,14 +59,16 @@
 #banner-title,
 .theme-intro-title
   line-height: 1.15
-  font-weight: 600
+  font-weight: 400
   font-family: font-menu
   font-size: 40px
+  color: white
   @media mq-normal
     font-size: 50px
 
 #banner-title
   padding-top: 20px
+  margin-bottom: 1.5rem
   @media mq-normal
     padding-top: 100px
 
@@ -72,6 +77,16 @@
   padding-top: 24px
   @media mq-normal
     padding-top: 0
+
+#banner-subtitle
+  line-height: 1.5
+  font-weight: 700
+  font-family: font-menu
+  font-size: 1.5rem
+  color: white
+  padding-bottom: 20px
+  @media mq-normal
+    padding-bottom: 100px
 
 #banner-start
   text-align: center
@@ -330,3 +345,7 @@ source
     min-height: 3.375rem
   &:before
     background-color: #f1b335
+
+.d-icon-box-content
+  p 
+    min-height: 4.5rem

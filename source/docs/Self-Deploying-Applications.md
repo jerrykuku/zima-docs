@@ -5,12 +5,11 @@ typora-root-url: ..
 # Reason
 
 In order to meet the needs of more users to install their own application load, CasaOS provides a variety of ways for users to install. This document will tell you how to find more Docker applications and use them by simply copying them.
-The recommended search site for this document is linuxserver.io-https://www.linuxserver.io/
-Recommended  Docker images Search Sources——linuxserver.io
+The recommended search site for this document is **[linuxserver.io](https://www.linuxserver.io/)**
 
 # linuxserver.io
 
-![](/images/Self-Deploying-Applications/application-introduce-linuxserver.png)
+![Linuxserver](/images/Self-Deploying-Applications/application-introduce-linuxserver.png)
 
 As described on their official website.
 We are a group of like-minded enthusiasts from across the world who build and maintain the largest collection of Docker images on the web, and at our core are the principles behind Free and Open Source Software. Our primary goal is to provide easy-to-use and streamlined Docker images with clear and concise documentation.
@@ -21,61 +20,61 @@ We are a group of like-minded enthusiasts from across the world who build and ma
 
 **Step 1** OpenLinuxServer and click fleet
 
-![](/images/Self-Deploying-Applications/application-linuxserver-fleet1.png)
+![Linuxserver Fleet](/images/Self-Deploying-Applications/application-linuxserver-fleet1.png)
 
 **Step 2** Search for the application you want in Fleet
 
-![](/images/Self-Deploying-Applications/application-linuxserver-fleet.png)
+![Linuxserver Fleet](/images/Self-Deploying-Applications/application-linuxserver-fleet.png)
 
 # Installing applications 
 
-**Example:** Installing the Apprise API on CasaOS and using it
+**Example:** Installing the **[Apprise API](https://hub.docker.com/r/linuxserver/apprise-api)** on CasaOS and using it
 
-## What is Apprise API?
+## What is **[Apprise API](https://hub.docker.com/r/linuxserver/apprise-api)**?
 
-![](/images/Self-Deploying-Applications/applicatin-appriseapi-logo.png)
+![Appriseapi](/images/Self-Deploying-Applications/applicatin-appriseapi-logo.png)
 
  Apprise allows you to send notifications to almost all of the most popular notification services we have available today, such as Telegram, Discord, Slack, Amazon SNS, Gotify, and more. This API provides a simple gateway to access it directly through an HTTP interface. Apprise API installation on CasaOS 
 
 ## Search For Docker CLI 
 Go to the Apprise API hub and copy the appropriate Docker CLI -apprise-api
 
-![](/images/Self-Deploying-Applications/application-docker-cli.png)
+![Copy Appriseapi Cli](/images/Self-Deploying-Applications/application-docker-cli.png)
 
 
 ## Follow these steps in order 
 
 Open CasaOS and go to the user-defined installation screen, paste in and wait for the installation.
 
-![](/images/Self-Deploying-Applications/application-install-apps1.png)
+![Copy Appriseapi Cli](/images/Self-Deploying-Applications/application-install-apps1.png)
 
-![](/images/Self-Deploying-Applications/application-install-apps2.png)
+![Copy Appriseapi Cli](/images/Self-Deploying-Applications/application-install-apps2.png)
 
-![](/images/Self-Deploying-Applications/application-install-apps3.png)
+![Copy Appriseapi Cli](/images/Self-Deploying-Applications/application-install-apps3.png)
 
-![](/images/Self-Deploying-Applications/application-install-apps4.png)
+![Copy Appriseapi Cli](/images/Self-Deploying-Applications/application-install-apps4.png)
 
 ## Copy Apprise API Docker Cli 
 
-![](/images/Self-Deploying-Applications/application-install-apps5.png)
+![Copy Appriseapi Cli](/images/Self-Deploying-Applications/application-install-apps5.png)
 
 ## Past Apprise API Docker Cli 
 
-![](/images/Self-Deploying-Applications/application-install-apps6.png)
+![Copy Appriseapi Cli](/images/Self-Deploying-Applications/application-install-apps6.png)
 
 ## Add Web UI Port
 
-![](/images/Self-Deploying-Applications/application-install-apps7.png)
+![Copy Appriseapi Cli](/images/Self-Deploying-Applications/application-install-apps7.png)
 
 ## In installation
 
 Wait a few minutes
 
-![](/images/Self-Deploying-Applications/application-install-apps8.png)
+![Copy Appriseapi Cli](/images/Self-Deploying-Applications/application-install-apps8.png)
 
 ## Successful Installation And Click To Use
 
-![](/images/Self-Deploying-Applications/application-using-appriseapi.png)
+![Copy Appriseapi Cli](/images/Self-Deploying-Applications/application-using-appriseapi.png)
 
 **Attention**
 AutoFill only helps you to complete most of the configuration.
@@ -88,7 +87,7 @@ These include but are not limited to these cases and still need to be confirmed 
 Feel free to suggest improvements to this feature in Discord Server! 
 
 # Conclusion
-The above is the Apprise API installation method, and the same is true for other applications. But note that each application itself requires some conditions.
+The above is the **[Apprise API](https://hub.docker.com/r/linuxserver/apprise-api)** installation method, and the same is true for other applications. But note that each application itself requires some conditions.
 
 Summarized some experiences: several parts that need to be checked in the Docker Hub interface during installation。
 
@@ -99,3 +98,5 @@ Identifies the architecture supported by the application . If not, please check 
 The container image is rationed using the parameters passed at runtime, and some applications have set default passwords to be displayed here as well
 
 More Information——https://docs.linuxserver.io/images/docker-airsonic-advanced#docker-cli-click-here-for-more-info
+
+[![Discord Card](https://discordapp.com/api/guilds/884667213326463016/widget.png?style=banner2)](https://discord.gg/knqAbbBbeX)

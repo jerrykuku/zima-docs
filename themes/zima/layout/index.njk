@@ -1,15 +1,8 @@
-<header id="banner" class="wrapper d-flex justify-content-center align-items-center">
-  <div>
-    <div class="inner">
-      <div class="big-title">{{page.subtitle}}</div>
-    </div>
-    <a href="docs/" class="site-button banner-button">{{ __('index.get_started') }}</a>
-  </div>
-  <div class="video-mask"></div>
-  <div class="video-bg">
-    <video class="bgvid"id="bgvid" autoplay loop muted>
-      <source src="/video/video1.mp4"  type="video/mp4" >
-    </video>
+<header id="banner">
+  <div class="overlay-main site-bg-primary opacity-06"></div>
+  <div class="inner">
+    <h2 id="banner-title">{{ page.subtitle }}</h2>
+    <h4 id="banner-subtitle">{{ page.intro }}</h4>
   </div>
 </header>
 
