@@ -1,3 +1,13 @@
+<!--
+ * @Author: Jerryk jerry@icewhale.org
+ * @Date: 2022-09-24 10:54:06
+ * @LastEditors: Jerryk jerry@icewhale.org
+ * @LastEditTime: 2022-09-25 17:02:59
+ * @FilePath: \zima-docs\README.md
+ * @Description: 
+ * 
+ * Copyright (c) 2022 by IceWhale, All Rights Reserved. 
+-->
 # Zima Docs Official Website
 
 
@@ -81,3 +91,15 @@ tag type: default / primary / success / info / warn / danger
 
 1. open ```source/_data/sidebar.yml``` ,add a new link in the original format.
 2. open ```themes/zima/languages/en.yml```, add the translation for the new link. 
+
+### Resize image
+
+``` html
+![Specify size](/image/test.jpg?200x200)
+
+![Restricted width](/image/test.jpg?200x)
+
+![Restricted height](/image/test.jpg?x200)
+
+![Specify the ratio](/image/test.jpg?40)
+```
