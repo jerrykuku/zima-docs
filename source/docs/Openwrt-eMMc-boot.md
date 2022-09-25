@@ -1,3 +1,14 @@
+<!--
+ * @Author: Jerryk jerry@icewhale.org
+ * @Date: 2022-09-24 10:56:43
+ * @LastEditors: Jerryk jerry@icewhale.org
+ * @LastEditTime: 2022-09-25 16:42:00
+ * @FilePath: \zima-docs\source\docs\Openwrt-eMMc-boot.md
+ * @Description: 
+ * 
+ * Copyright (c) 2022 by IceWhale, All Rights Reserved. 
+-->
+---
 title: OpenWrt is the perfect companion for the ZimaBoard eMMC burn-in version
 ---
 
@@ -25,7 +36,7 @@ Based on this simple tutorial, we will share how to use the ZimaBoard's pre-buil
 
 On the PC, log in to ZimaBoard's CasaOS panel via ```casaos.local```
 
-![Openwrt eMMc Boot Log In CasaOS](\images/Openwrt-emmc-boot/openwrt-emmc-boot-log-in-casaos.png)
+![Openwrt eMMc Boot Log In CasaOS](/images/Openwrt-emmc-boot/openwrt-emmc-boot-log-in-casaos.png)
 
 
 ## Upload the OpenWrt image
@@ -36,17 +47,17 @@ On the PC, log in to ZimaBoard's CasaOS panel via ```casaos.local```
 
 **3. From the local path, select Upload your OpenWrt image**
 
-![Upload The OpenWRT Image](\images/Openwrt-emmc-boot/openwrt-emmc-boot-upload-the-openwrt-image.png)
+![Upload The OpenWRT Image](/images/Openwrt-emmc-boot/openwrt-emmc-boot-upload-the-openwrt-image.png)
 
 **4.Waiting for the upload to complete**
 
-![Upload The OpenWRT Image](\images/Openwrt-emmc-boot/openwrt-emmc-boot-upload-the-openwrt-image2.png)
+![Upload The OpenWRT Image](/images/Openwrt-emmc-boot/openwrt-emmc-boot-upload-the-openwrt-image2.png)
 
 ## OpenWrt system writes to eMMc
 1. Write the OpenWrt Image to the ZimaBoard eMMC using the DD command
     a.Login to the ZimaBoard system via Terminal, SSH on your PC（Terminal out connection, need to know the IP address of your machine）
 
-![OpenWRT Connect SSH](\images/Openwrt-emmc-boot/openwrt-emmc-boot-connect-ssh.png)
+![OpenWRT Connect SSH](/images/Openwrt-emmc-boot/openwrt-emmc-boot-connect-ssh.png)
 
 2. Log in with your CasaOS account and password
 {% note danger %}
@@ -57,13 +68,13 @@ Default Account Password
 
 3. Enter lsblk and review to see if you are getting the target eMMC name, which should be mmcblk0
 
-![](\images/Openwrt-emmc-boot/openwrt-emmc-boot-find-emmc-name.png)
+![](/images/Openwrt-emmc-boot/openwrt-emmc-boot-find-emmc-name.png)
 
 4. Unzip the image file (if your OpenWrt file is a zip archive)
 ```
 gzip -d [.gz or .img.gz image name]
 ```
-![Unzip OpenWRT Image](\images/Openwrt-emmc-boot/openwrt-emmc-boot-unzip-image-file.png)
+![Unzip OpenWRT Image](/images/Openwrt-emmc-boot/openwrt-emmc-boot-unzip-image-file.png)
 
 5. Check that the decompression is working! Make sure there are no abnormalities in the image file
 ```bash
@@ -89,7 +100,7 @@ ls -lh
 
 2. Reboot and log in to your OpenWrt system
    
-![Enter To Openwrt Luci](\images/Openwrt-emmc-boot/openwrt-emmc-boot-enter-to-openwrt-luci.png)
+![Enter To Openwrt Luci](/images/Openwrt-emmc-boot/openwrt-emmc-boot-enter-to-openwrt-luci.png)
 
 # Summary
 My personal preference is to run purely a separate system and service on each ZimaBoard. So, instead of booting OpenWrt on the ZimaBoard with a USB stick, this is actually a much simpler way. If you are interested in having your ZimaBoard running dual systems at the same time, consider making a USB stick and switch the system the ZimaBoard is logged into via the Bios configuration.

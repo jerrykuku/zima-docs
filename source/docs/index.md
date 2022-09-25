@@ -1,9 +1,10 @@
+---
 title: Get Started with ZimaBoard
 type: “Docs”
 ---
 # First Look at Home Server
 
-![Zimaboard Homeserve](\images/Get-Started-with-ZimaBoard/quick-get-start-zimaboard-homeserve.jpg)
+![Zimaboard Homeserve](/images/Get-Started-with-ZimaBoard/quick-get-start-zimaboard-homeserve.jpg)
 
 **Whether you are an expert or a novice, the Quick Start tutorial will take you through the basic hardware specifications of the ZimaBoard, the basic applications of the pre-built home server, and some basic account permission systems for debugging and development.**
 
@@ -11,7 +12,7 @@ type: “Docs”
 
 # Hardware Preparation
 
-![ZimaBoard Quickstart Preparation](\images/Get-Started-with-ZimaBoard/quickstart-preparation.jpg )
+![ZimaBoard Quickstart Preparation](/images/Get-Started-with-ZimaBoard/quickstart-preparation.jpg )
 
 {% note warn Tips %}
 1. You don't need to connect your mouse and keyboard to the ZimaBoard, you can access all the services on the ZimaBoard directly through the network after connecting the network cable.
@@ -20,7 +21,7 @@ type: “Docs”
 
 # Power And Network Cable Connection
 
-![ZimaBoard Connect Power](\images/Get-Started-with-ZimaBoard/quickstart-power-connect.jpg)
+![ZimaBoard Connect Power](/images/Get-Started-with-ZimaBoard/quickstart-power-connect.jpg)
 
 # Get Started With The System In Three Steps
 
@@ -31,27 +32,27 @@ type: “Docs”
 
 ## Open a new tab in your browser and enter http:**`//casaos.local`**
 
-![Enter to CasaOS](\images/Get-Started-with-ZimaBoard/casaos-enter-casa-local.jpg)
+![Enter to CasaOS](/images/Get-Started-with-ZimaBoard/casaos-enter-casa-local.jpg)
 
 If you find that **`/casaos.local`** cannot access CasaOS, please use the IP address to access the system -[Tutorial To Find The IP Address](/faq/How-to-check-IP-address)
 
 ## Enter The System
 
-![CasaOS HomePage](\images/Get-Started-with-ZimaBoard/casaos-welcome.jpg)
+![CasaOS HomePage](/images/Get-Started-with-ZimaBoard/casaos-welcome.jpg)
 
 ## Create Your Account
 CasaOS Create Account
 
-![Create CasaOS Account](\images/Get-Started-with-ZimaBoard/casaos-create-account.jpg)
+![Create CasaOS Account](/images/Get-Started-with-ZimaBoard/casaos-create-account.jpg)
 
 ## Update system
 Updating the system is for a better experience
 
-![CasaOS Update](\images/Get-Started-with-ZimaBoard/casaos-update.jpg)
+![CasaOS Update](/images/Get-Started-with-ZimaBoard/casaos-update.jpg)
 
 ## Have Fun!
 
-![CasaOS Main](\images/Get-Started-with-ZimaBoard/casaos-main.jpg)
+![CasaOS Main](/images/Get-Started-with-ZimaBoard/casaos-main.jpg)
 
 {% note warn Default account for Pre-installed Apps %}
 Username:casaos

@@ -1,3 +1,4 @@
+---
 titel: Upgrade-Motherboard-BIOS-Version
 --- 
 
@@ -46,7 +47,7 @@ Improper operation can cause the ZimaBoard to fail to start.
 1. Unzip the downloaded BIOS file
 2. Copy the entire EFI folder to the root of the USB drive
 
-![](\../images/Upgrade-Motherboard-BIOS-Version/bios-efi-folder.png)
+![](/images/Upgrade-Motherboard-BIOS-Version/bios-efi-folder.png)
 
 ## Step 3: Update BIOS
 
@@ -54,12 +55,12 @@ Improper operation can cause the ZimaBoard to fail to start.
 2. Connect power and press <kbd>F11</kbd> continuously.
 3. Select your USB drive starting with UEFI in the boot device menu.
 
-![](\../images/Upgrade-Motherboard-BIOS-Version/bios-select-boot-device.jpg)
+![](/images/Upgrade-Motherboard-BIOS-Version/bios-select-boot-device.jpg)
 
 **1. Wait for BIOS update to complete.**
 
-![](\../images/Upgrade-Motherboard-BIOS-Version/bios-update-wating.jpg)
+![](/images/Upgrade-Motherboard-BIOS-Version/bios-update-wating.jpg)
 
 **2. Done!**
 
-![](\../images/Upgrade-Motherboard-BIOS-Version/bios-update-successful.jpg)
+![](/images/Upgrade-Motherboard-BIOS-Version/bios-update-successful.jpg)

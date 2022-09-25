@@ -1,5 +1,5 @@
 ---
-title: Build a 75" 4K Arcade with ZimaBoard and Batocera.linux
+title: Build a 75-inch 4K Arcade with ZimaBoard and Batocera.linux
 ---
 >**Story:**
  There are so many nostalgic games out there, and browsing through them one by one, with their memorable names and screenshots, is like going back in time. It's like going back in time to your own childhood passions and desires (what? Your childhood desire was to watch JAV?) This tutorial will take us back to our childhood
@@ -11,7 +11,7 @@ title: Build a 75" 4K Arcade with ZimaBoard and Batocera.linux
 
 # 1. WHAT IS [BATOCERA.LINUX](https://batocera.org/) ?
 
-![Introduce Batocera](\../images/Build-a-75"-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-introduce-batocera.png)
+![Introduce Batocera](/images/Build-a-75-inch-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-introduce-batocera.png)
 
 **[Batocera](https://batocera.org/)software based on Debian distribution is a group of emulators that allows us to load games with their covers and other extras to play in an orderly way dozens of emulators of different machines. To play them you need the ```ROMS or ISO``` of the games and some of these systems also require the BIOS images of the machine to emulate.**
 
@@ -22,15 +22,15 @@ title: Build a 75" 4K Arcade with ZimaBoard and Batocera.linux
 - [Complete list of emulated systems in Batocera.](https://batocera.org/compatibility.php)
 - [Batocera wiki](https://wiki.batocera.org/)
 
-![Introduce Batocera](\../images/Build-a-75"-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-introduce-batocera2.png)
+![Introduce Batocera](/images/Build-a-75-inch-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-introduce-batocera2.png)
 
 # 2. INSTALL BATOCERA ON USB PENDRIVE OR MICROSD
 
 ## Things to prepare in the early stages
 
-![Batocera Linux](\../images/Build-a-75"-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-prepare.png)
+![Batocera Linux](/images/Build-a-75-inch-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-prepare.png)
 
-![Introduce Batocera](\../images/Build-a-75"-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-prepare2.jpeg)
+![Introduce Batocera](/images/Build-a-75-inch-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-prepare2.jpeg)
 
 ## Making Batocera image
 **To install **Batocera** we need the **IMG.GZ** file for our device, to download it we only have to enter the Batocera website and save it in our computer. Then thanks to the balenaEtcher software we will create the boot drive that will allow us to run the system without modifying our device.**
@@ -51,19 +51,19 @@ title: Build a 75" 4K Arcade with ZimaBoard and Batocera.linux
 
 **Open your Balena and click on Flash from the file and select the Batocera you have just downloaded.**
 
-![Open balenaetcher](/images/Installing-Ubuntu-System/install-ubuntu-system-open-balenaetcher.jpg)
+![Open balenaetcher](/images//Installing-Ubuntu-System/install-ubuntu-system-open-balenaetcher.jpg)
 
 **- step3**
 
 **Select the ```SD memory or USB drive``` you need to boot from** 
 
-![choose usb drive](\../images/Build-a-75"-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-choose-usb-drive.jpeg)
+![choose usb drive](/images/Build-a-75-inch-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-choose-usb-drive.jpeg)
 
 **- step4**
 
 **Enter your host password to start the conversion**
 
-![choose usb drive](\../images/Build-a-75"-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-choose-usb-drive.jpeg)
+![choose usb drive](/images/Build-a-75-inch-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-choose-usb-drive.jpeg)
 
 # 3.Start on ZimaBoard
 
@@ -71,28 +71,28 @@ title: Build a 75" 4K Arcade with ZimaBoard and Batocera.linux
 
 **With the ZimaBoard turned off, we insert the micro ```SD card or USB drive``` prepared with Batocera.**
 
-![Zimaboard Connect Usb](\../images/Build-a-75"-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-zimaboard-connect-usb.png)
+![Zimaboard Connect Usb](/images/Build-a-75-inch-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-zimaboard-connect-usb.png)
 
 **When booting long press to enter the Bios interface, select the ```U disk boot```**
 
-![Zimaboard Boot Select The USB Disk](\../images/Build-a-75"-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-zimaboard-boot-select-the-u-disk.jpeg)
+![Zimaboard Boot Select The USB Disk](/images/Build-a-75-inch-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-zimaboard-boot-select-the-u-disk.jpeg)
 
 **Finally you are in the Batocera interface**
 
-![Enter Batocerag](\../images/Build-a-75"-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-zimaboard-boot-enter-batocera.png)
+![Enter Batocerag](/images/Build-a-75-inch-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-zimaboard-boot-enter-batocera.png)
 
 # 4. Getting started with Batocera
 
 ## Handle usage rules
 
-![Batocera Hotkeys](\../images/Build-a-75"-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-zimaboard-in-game-batocera-hotkeys.png)
+![Batocera Hotkeys](/images/Build-a-75-inch-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-zimaboard-in-game-batocera-hotkeys.png)
 
 May not be suitable for all grips, but satisfies the rules of use of the mainstream grips on the market.
 
 ## Play
 **Batocera is shipped with a selection of ```free ROMs - games``` that are freely available and that can be legally distributed.**
 
-![Play Batocera With Zimaboard](\../images/Build-a-75"-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-zimaboard-play.jpeg)
+![Play Batocera With Zimaboard](/images/Build-a-75-inch-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-zimaboard-play.jpeg)
 
 # 5.Some other configurations
 
@@ -104,22 +104,22 @@ May not be suitable for all grips, but satisfies the rules of use of the mainstr
 
 **- Step2 Find NETWORK SETTINGS And Enter**
 
-![Batocera Setting Nerwork](\../images/Build-a-75"-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-network-settings.jpeg)
+![Batocera Setting Nerwork](/images/Build-a-75-inch-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-network-settings.jpeg)
 
 **- Step 3 Find IP address**
 
-![Batocera Setting Nerwork](\../images/Build-a-75"-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-network-settings1.jpeg)
+![Batocera Setting Nerwork](/images/Build-a-75-inch-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-network-settings1.jpeg)
 
 
 **- Step 4 Link to ZimaBoard using your computer** 
 
-![Batocera Setting Nerwork](\../images/Build-a-75"-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-network-settings2.jpeg)
+![Batocera Setting Nerwork](/images/Build-a-75-inch-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-network-settings2.jpeg)
 
 **- Step 5 Click on Connect to go to the folder**
 
-![Batocera Setting Nerwork](\../images/Build-a-75"-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-network-settings3.jpeg)
+![Batocera Setting Nerwork](/images/Build-a-75-inch-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-network-settings3.jpeg)
 
-![iBatocera Setting Nerworkmg](\../images/Build-a-75"-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-network-settings4.jpeg)
+![iBatocera Setting Nerworkmg](/images/Build-a-75-inch-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-network-settings4.jpeg)
 
 **- Step 6 Place the Rom or BIOS you downloaded into the appropriate folder** 
 
@@ -129,16 +129,16 @@ Please refer to the **[official tutorial](https://wiki.batocera.org/add_games_bi
 
 **- Step1 Press the space bar and look for `SYSTEM SETTINGS`**
 
-![Batocera System](\../images/Build-a-75"-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-system-settings.jpeg)
+![Batocera System](/images/Build-a-75-inch-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-system-settings.jpeg)
 
 **- Step2 Select `INSTALL BATOCREA ON A NEW DISK`**
 
-![Batocera System](\../images/Build-a-75"-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-system-settings2.jpeg)
+![Batocera System](/images/Build-a-75-inch-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-system-settings2.jpeg)
 
 **- Step 3 TARGET DEVICE `16 or 32G` TARGECT ARCHITCTURE Choose `X860_64 `ARE YOU SURE？choose `yes`**
 
 **Finally click on `INSTALL`**
 
-![Batocera System](\../images/Build-a-75"-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-system-settings3.jpeg)
+![Batocera System](/images/Build-a-75-inch-4K-Arcade-with-ZimaBoard-and-Batocera/Build-a-75-4K-Arcade-with-ZimaBoard-and-Batocera-system-settings3.jpeg)
 
 [![Discord Card](https://discordapp.com/api/guilds/884667213326463016/widget.png?style=banner2)](https://discord.gg/knqAbbBbeX)

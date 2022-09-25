@@ -6,7 +6,7 @@ title: Find CasaOS IP Address
 
 **When your ZimaBoard has access to CasaOS, you can use CasaOS terminal queries.**
 
-![](\../images/Basic-functions-of-dedicated-systems/find-in-casaos-ip-address.gif)
+![](/images/Basic-functions-of-dedicated-systems/find-in-casaos-ip-address.gif)
 
 **When your ZimaBoard is unable to access CasaOS by filling in CasaOS.local, the following two options can help you find the IP.**
 
@@ -23,7 +23,7 @@ TIPS
 
 ### Now use your browser to go to your router's settings page ###
 
-![](\../images/Basic-functions-of-dedicated-systems/find-enter-address-in-google.png)
+![](/images/Basic-functions-of-dedicated-systems/find-enter-address-in-google.png)
 
 {% note dinfo %}
 **TIPS**
@@ -45,7 +45,7 @@ TIPS
 
 **LanScan is a free, simple and effective Mac X OS Network scanner that discovers all active devices on your Local Area Network (LAN)**
 
-![](\../images/Basic-functions-of-dedicated-systems/find-casaos-ip-mac-lanscan.png)
+![](/images/Basic-functions-of-dedicated-systems/find-casaos-ip-mac-lanscan.png)
 
 **Software Download Address**—["**LanScan**"](https://www.iwaxx.com/lanscan/)
 
@@ -55,10 +55,10 @@ TIPS
 
 **Reliable and free network scanner to analyse LAN. The program shows all network devices, gives you access to shared folders, provides remote control of computers (via RDP and Radmin), and can even remotely switch computers off. It is easy to use and runs as a portable edition.**
 
-![](\../images/Basic-functions-of-dedicated-systems/find-casaos-ip-win-advance-ip-scan.png)
+![](/images/Basic-functions-of-dedicated-systems/find-casaos-ip-win-advance-ip-scan.png)
 
 
-![](\../images/Basic-functions-of-dedicated-systems/find-casaos-ip-win-advance-ip-scan-2.png)
+![](/images/Basic-functions-of-dedicated-systems/find-casaos-ip-win-advance-ip-scan-2.png)
 
 **Software Download Address**—["**Advance IP Scanner**"](https://www.advanced-ip-scanner.com/)
 

@@ -11,7 +11,7 @@ Open your web browser and open **`http://casaos.local`**
 
 (If you can't open it in Windows, try **`http://casaos`**)
 
-![CasaOS Main](\../images/Get-Started-with-ZimaBoard/casaos-main.jpg)
+![CasaOS Main](/images/Get-Started-with-ZimaBoard/casaos-main.jpg)
 
 
 We find **Jellyfin** in **Apps** and click on its logo, and it opens
@@ -27,21 +27,21 @@ TIPS
 **Password:`casaos`**
 {% endnote %}
 
-![Log In Jellyfin ](\../images/Basic-functions-of-dedicated-systems/watching-jellyfin-login.jpeg)
+![Log In Jellyfin ](/images/Basic-functions-of-dedicated-systems/watching-jellyfin-login.jpeg)
 
 ## Watch Videos with Jellyfin!
 
 ### Browse the Library
 
-![Watching Jellyfin Library](\../images/Basic-functions-of-dedicated-systems/watching-jellyfin-library.jpeg)
+![Watching Jellyfin Library](/images/Basic-functions-of-dedicated-systems/watching-jellyfin-library.jpeg)
 
 ### Movie Information
 
-![Use Jellyfin Watching Move Details](\../images/Basic-functions-of-dedicated-systems/watching-move-details.jpeg)
+![Use Jellyfin Watching Move Details](/images/Basic-functions-of-dedicated-systems/watching-move-details.jpeg)
 
 ### Playback
 
-![Use Jellyfin Watching Move ](\../images/Basic-functions-of-dedicated-systems/watching-move-play.jpeg)
+![Use Jellyfin Watching Move ](/images/Basic-functions-of-dedicated-systems/watching-move-play.jpeg)
 
 ## Watch Videos Anywhere
 
@@ -49,7 +49,7 @@ Emby offers a lot of ways to watch movies to choose from, you can watch them on 
 
 ### Watch Videos on Your Phone
 
-![Use Jellyfin Watching Move With Phone](\../images/Basic-functions-of-dedicated-systems/watching-move-jellyfin-phone.png)
+![Use Jellyfin Watching Move With Phone](/images/Basic-functions-of-dedicated-systems/watching-move-jellyfin-phone.png)
 
 
 
@@ -63,7 +63,7 @@ Open your web browser and open **`http://casaos.local`**
 
 <BrowserWindow url="http://casaos.local">
 
-![CasaOS Main](\../images/Get-Started-with-ZimaBoard/casaos-main.jpg)
+![CasaOS Main](/images/Get-Started-with-ZimaBoard/casaos-main.jpg)
 
 </BrowserWindow>
 
@@ -80,7 +80,7 @@ Username:`casaos`
 Password:`casaos`
 {% endnote %}
 
-![Log In Photoprism](\../images/Basic-functions-of-dedicated-systems/photo-photoprism-login-page.png)
+![Log In Photoprism](/images/Basic-functions-of-dedicated-systems/photo-photoprism-login-page.png)
 
 
 
@@ -89,32 +89,32 @@ Password:`casaos`
 ### View Photos
 
 
-![Using Photoprism watching photos ](\../images/Basic-functions-of-dedicated-systems/photo-view-photos.png)
+![Using Photoprism watching photos ](/images/Basic-functions-of-dedicated-systems/photo-view-photos.png)
  
 
 ### View Photos Information
 
-![Using Photoprism watching photos informatin](\../images/Basic-functions-of-dedicated-systems/photo-view-photo-information.png)
+![Using Photoprism watching photos informatin](/images/Basic-functions-of-dedicated-systems/photo-view-photo-information.png)
 
 
 ### Batch Editing Photos
 
 
-![Using Photoprism Sditing Photos ](\../images/Basic-functions-of-dedicated-systems/photo-editing-photo.png)
+![Using Photoprism Sditing Photos ](/images/Basic-functions-of-dedicated-systems/photo-editing-photo.png)
 
 
 ### Create Albums
 
-![Using Photoprism Create albums](\../images/Basic-functions-of-dedicated-systems/photo-create-albums2.png)
+![Using Photoprism Create albums](/images/Basic-functions-of-dedicated-systems/photo-create-albums2.png)
 
 ### Upload Photos 
 
-![Using Photoprism Upload Photo](\../images/Basic-functions-of-dedicated-systems/photo-upload2.jpg)
+![Using Photoprism Upload Photo](/images/Basic-functions-of-dedicated-systems/photo-upload2.jpg)
 
 
 #### Update index
 
-![Using Photoprism Upload Photo](\../images/Basic-functions-of-dedicated-systems/photo-upload-photos.png)
+![Using Photoprism Upload Photo](/images/Basic-functions-of-dedicated-systems/photo-upload-photos.png)
 
 **See this link for more information-****https://docs.photoprism.app/**
 
